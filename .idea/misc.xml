@@ -4,11 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/background_btn.xml" value="0.332" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_domain.xml" value="0.1895" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_filter.xml" value="0.332" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_mypage.xml" value="0.332" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_search.xml" value="0.332" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_update.xml" value="0.332" />
-        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/layer_button_checked.xml" value="0.1" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/layer_button_unchecked.xml" value="0.1" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/selector_button.xml" value="0.1" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/selector_text.xml" value="0.1" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_join.xml" value="0.25" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_join_detail.xml" value="0.25" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_result.xml" value="0.33" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_result_law.xml" value="0.3567708333333333" />
       </map>
     </option>
   </component>
