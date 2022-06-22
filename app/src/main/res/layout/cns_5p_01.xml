@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#00ffffff"
+                android:src="@mipmap/CNS_arrow_foreground"></ImageButton>
+
+            <ImageButton
+                android:layout_width="78dp"
+                android:layout_height="70dp"
+                android:background="#00ffffff"
+                android:src="@mipmap/CNS_user"
+                android:layout_marginLeft="265dp"/>
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="최근 개정 법률"
+                android:textSize="25dp"
+                android:textStyle="bold">
+            </TextView>
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#FAED7D"
+            android:text="도시교통정비 촉진법"
+            android:textSize="17dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#FAED7D"
+            android:text="제1조(목적) 이 법은 교통시설의 정비를 촉진하고 교통수단과 교통체계를 효율적이고 환경친화적으로 운영/관리하여 도시교통의 원활한 소통과 교통편의 증진에 이바지함을 목적으로 한다."
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="#FAED7D"
+            android:text="여객자동차 운수사업법 시행규칙"
+            android:textSize="17dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#FAED7D"
+            android:text="제1조(규칙) 이 규칙은 [여객자동차 운수사업법] 및 같은 법시행령에서 위임된 사항과 그 시행에 필요한 사항을 규정함을 목적으로 한다."
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="#FAED7D"
+            android:text="//"
+            android:textSize="17dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#FAED7D"
+            android:text="//"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
