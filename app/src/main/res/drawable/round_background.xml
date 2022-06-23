@@ -34,5 +34,5 @@
                 android:topRightRadius="10dp" />
         </shape>
     </item>
-    출처: https://3001ssw.tistory.com/189 [C++, WinAPI, OpenCV, Android 공부 블로그:티스토리]
+
 </selector>
