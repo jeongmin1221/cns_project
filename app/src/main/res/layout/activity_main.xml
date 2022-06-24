@@ -79,13 +79,13 @@
     <EditText
         android:id="@+id/editTextTextPersonName9"
         android:layout_width="300sp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginStart="2dp"
         android:layout_weight="1"
         android:background="@drawable/layer_stroke"
-        android:padding="10dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:padding="10dp"
         android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,8 +94,8 @@
 
     <ImageButton
         android:id="@+id/btn_search"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="77dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName9"

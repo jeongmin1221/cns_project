@@ -76,7 +76,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName9"
         android:layout_width="300sp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="24dp"
         android:layout_weight="1"
         android:background="@drawable/layer_stroke"
@@ -92,11 +92,14 @@
 
     <ImageButton
         android:id="@+id/btn_search"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="23dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName9"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName9"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName9"
         app:srcCompat="@drawable/ic_search_black_24dp" />
 
     <TextView
