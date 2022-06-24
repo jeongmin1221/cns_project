@@ -7,6 +7,7 @@
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/btn_custom.xml" value="0.1" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/btn_custom_g.xml" value="0.3245" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/custom_btn_g.xml" value="0.2635" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/custom_btn_y.xml" value="0.2635" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_supervisor_account_24.xml" value="0.3245" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_domain.xml" value="0.1895" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_filter.xml" value="0.332" />
@@ -23,8 +24,8 @@
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_join.xml" value="0.5" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_join_detail.xml" value="0.25" />
         <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_result.xml" value="0.67" />
-        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_result_law.xml" value="0.3567708333333333" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_result.xml" value="0.33" />
+        <entry key="..\:/Users/CNS_HS/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_result_law.xml" value="0.33" />
       </map>
     </option>
   </component>

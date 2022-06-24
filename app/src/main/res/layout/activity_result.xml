@@ -151,7 +151,7 @@
             android:textAlignment="center"
             android:textColor="@drawable/custom_text_radio"
             android:textSize="17dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintBottom_toTopOf="@+id/textView_result_"
             app:layout_constraintEnd_toStartOf="@+id/radioButton2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -170,12 +170,12 @@
             android:textAlignment="center"
             android:textColor="@drawable/custom_text_radio"
             android:textSize="17dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintBottom_toTopOf="@+id/textView_result_"
             app:layout_constraintStart_toEndOf="@+id/radioButton"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView_result_"
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:layout_marginStart="8dp"
@@ -201,7 +201,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            app:layout_constraintTop_toBottomOf="@+id/textView_result_" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
