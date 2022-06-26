@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="#DDDDDD"
+        android:text="특수공무집행방해치상/특수공무집행방해/일반교통방해/집회및시위에관한법률위반/모욕"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#DDDDDD"
+        android:src="@mipmap/CNS_viewMore_foreground"
+        app:layout_constraintStart_toEndOf="@id/textView"
+        tools:ignore="MissingConstraints"></ImageButton>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="#DDDDDD"
+        android:text="[1] 집회 및 시위에 관한 법률에 의하여 보장 및 규제의 대상이 되는 '집회'의 의미 / 미신고 옥외집회 또는 시위를 대상으로 같은 법 제 20조 제 1항 제 2호에 기하여 해산을"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:ignore="MissingConstraints"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

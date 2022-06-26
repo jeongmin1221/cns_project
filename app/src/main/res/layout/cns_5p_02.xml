@@ -1,58 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageButton
+        android:id="@+id/btn_backspace"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#00ffffff"
+        android:src="@mipmap/CNS_arrow_foreground"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/btn_user"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00ffffff"
+        android:src="@mipmap/CNS_user"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_Lhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="법률전문"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="70dp"></TextView>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="120dp"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:background="#00ffffff"
-                android:src="@mipmap/CNS_arrow_foreground"></ImageButton>
-
-            <ImageButton
-                android:layout_width="78dp"
-                android:layout_height="70dp"
-                android:background="#00ffffff"
-                android:src="@mipmap/CNS_user"
-                android:layout_marginLeft="265dp"/>
-        </LinearLayout>
-
         <TextView
-            android:layout_width="170dp"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:layout_marginLeft="20dp"
-            android:text="법률전문"
-            android:textSize="25dp"
-            android:textStyle="bold">
-        </TextView>
-
-        <TextView
-            android:layout_width="373dp"
+            android:id="@+id/text_lContentName"
+            android:layout_width="380dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:background="#FAED7D"
-            android:text="기간제 및 단시간근로자 보호 등에 관한 법률(약칭: 기간제법)"
+            android:layout_marginLeft="8dp"
+            android:background="#DDDDDD"
+            android:text="특수공무집행방해치상/특수공무집행방해"
             android:textSize="17dp"
             android:textStyle="bold"></TextView>
 
         <TextView
-            android:layout_width="373dp"
+            android:id="@+id/text_lContent"
+            android:layout_width="380dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:background="#FAED7D"
-            android:text="본문"
+            android:layout_marginLeft="8dp"
+            android:background="#DDDDDD"
+            android:text="[1] 집회 및 시위에 관한 법률에 의하여 보장 및 규제의 대상이 되는 '집회'의 의미 / 미신고 옥외집회 또는 시위를 대상으로 같은 법 제 20조 제 1항 제 2호에 기하여 해산을"
             android:textSize="15dp"></TextView>
 
     </LinearLayout>
