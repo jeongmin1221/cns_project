@@ -15,7 +15,8 @@
         android:textSize="17dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType = "textNoSuggestions"></TextView>
 
     <ImageButton
         android:id="@+id/imageButton"
