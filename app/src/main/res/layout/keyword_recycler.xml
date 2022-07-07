@@ -23,7 +23,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="#DDDDDD"
-        android:src="@mipmap/CNS_viewMore_foreground"
+        android:src="@mipmap/cns_viewMore_foreground"
         app:layout_constraintStart_toEndOf="@id/textView"
         tools:ignore="MissingConstraints"></ImageButton>
 

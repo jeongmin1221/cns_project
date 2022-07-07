@@ -12,7 +12,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:background="#00ffffff"
-        android:src="@mipmap/CNS_arrow_foreground"
+        android:src="@mipmap/cns_arrow_foreground"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"></ImageButton>
 
@@ -23,7 +23,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:background="#00ffffff"
-        android:src="@mipmap/CNS_user"
+        android:src="@mipmap/cns_user_foreground"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
