@@ -22,8 +22,7 @@
         android:id="@+id/imageButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="#DDDDDD"
-        android:src="@mipmap/cns_viewMore_foreground"
+        android:background="@drawable/btn_viewmore"
         app:layout_constraintStart_toEndOf="@id/textView"
         tools:ignore="MissingConstraints"></ImageButton>
 
