@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:background="#DDDDDD"
-            android:text="특수공무집행방해치상/특수공무집행방해"
+            android:text="title"
             android:textSize="17dp"
             android:textStyle="bold"></TextView>
 
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:background="#DDDDDD"
-            android:text="[1] 집회 및 시위에 관한 법률에 의하여 보장 및 규제의 대상이 되는 '집회'의 의미 / 미신고 옥외집회 또는 시위를 대상으로 같은 법 제 20조 제 1항 제 2호에 기하여 해산을"
+            android:text="content"
             android:textSize="15dp"></TextView>
 
     </LinearLayout>
