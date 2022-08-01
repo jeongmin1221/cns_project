@@ -9,29 +9,29 @@ import android.os.Bundle;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
-    private ArrayList<keyword_class> nlist;
-    private keywordAdapter keywordadapter;
-    private keyword_class keywordclass;
-    private int count = 0;
+    private RecyclerAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cns_5p_02);
+        setContentView(R.layout.cns_4p_01);
 
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager());
+        init();
 
-        nlist = new ArrayList<>();
-        for(int i =0; i<10; i++){
-            keywordclass = new keyword_class( lawTitle+count+"제목", lawContents+ count+"내용");
-            nlist.add(keywordclass);
-            count++;
-        }
-
-        keywordadapter = new keywordAdapter(nlist);
-        recyclerView.setAdapter(keywordadapter);
+        getData();
     }
+
+    private void init() {
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(linearLayoutManager);
+
+        adapter = new RecyclerAdapter();
+        recyclerView.setAdapter(adapter);
+    }
+
+    private void getData() {
+    }
+
 }
